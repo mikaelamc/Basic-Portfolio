@@ -1,0 +1,59 @@
+
+
+* {
+    box-sizing: border-box;
+    overflow: auto;
+    clear: both;   
+
+}
+
+body{
+    background-color:#cccccc;
+}
+.Links {
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #ffffff;
+    padding: 19px;
+    color: #777777;
+
+}
+ 
+#Mikaela {
+    width: 180px;
+    height: 62px;
+    background: #4aaaa5;
+    color:#ffffff;
+    padding: 18px;
+    border:solid;
+    position: relative;
+    top: -61px;
+    left: 98px;
+
+}
+
+.About {
+    width: 877px;
+    height: 522px;
+    position: relative;
+    border: solid;
+    margin-top: 10px;
+    margin-left:47px;
+    float: left;
+    left: 267px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#About Me {
+    color: #4aaaa5;
+}
+
+
+    
