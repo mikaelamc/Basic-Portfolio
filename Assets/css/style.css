@@ -10,39 +10,42 @@
 body{
     background-color:#cccccc;
 }
-.Links {
+
+.wrapper {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
     text-align: right;
+    height: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #ffffff;
-    padding: 19px;
-    color: #777777;
+    padding: 20px;
+    columns: #777777;
 
 }
  
+
 #Mikaela {
-    width: 180px;
-    height: 62px;
-    background: #4aaaa5;
-    color:#ffffff;
-    padding: 18px;
-    border:solid;
-    position: relative;
-    top: -61px;
-    left: 98px;
+    position: absolute;
+    top: 0px;
+    bottom:7px;
+    left:200px;
+    height:70px;
+    width:218px;
+    line-height:70px;
+    text-align: center;
+    right:35px;
+    background: #4aaaa5;;
+    color:#ffffff
 
 }
 
-.About {
-    width: 877px;
-    height: 522px;
-    position: relative;
-    border: solid;
-    margin-top: 10px;
-    margin-left:47px;
-    float: left;
-    left: 267px;
-    background-color: #ffffff;
-    padding: 15px;
+
+.ALL {
+    margin: 100px;
+    width: 960px;
+    background: #ffffff;
 }
 
 .img {
