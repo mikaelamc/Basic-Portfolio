@@ -12,6 +12,11 @@ body{
     color: #777;
 }
 
+@media screen and (max-width:980px){
+    container{ width: 100%;}
+}
+
+
 .container { 
     width: 100%;
     max-width: 960px;
@@ -34,7 +39,7 @@ h1, h2, h3, {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
     padding-bottom: 20px;
@@ -47,10 +52,10 @@ h2, h3 {
 /*header*/
 
 #masthead {
-    background: #fff;
+    background: white;
     margin: 0 0 30px;
     z-index: 99;
-    color: #fff;
+    color: navy;
     overflow: auto;
     border-bottom: 2px solid #ccc;
     position: fixed;
@@ -58,14 +63,15 @@ h2, h3 {
 }
 
 #logo {
-    width: 250px;
+    width: 358px;
     height: 90px;
-    background: #4aaaa5;
+    height: 128px;
+    background:navy;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     line-height: 90px;
-    color: #ffffff;
+    color: white;
     font-weight: 700;
     font-size: 30px;
     text-decoration: none;
@@ -79,7 +85,7 @@ nav {
 }
 
 nav a {
-    color:#999;
+    color: navy;
     text-decoration: none;
     margin-left: 15px;
     display: inline-block;
@@ -98,7 +104,8 @@ nav a:first-child {
 }
 
 .main-section {
-    background: #fff;
+    color: navy;
+    background: white;
     padding: 30px;
     margin: 0 0 40px 0px;
     width: 100%;
@@ -150,10 +157,10 @@ h3, .sidebar, h2 {
 /*footer*/
 footer {
     background: #666;
-    color: #fff;
+    color: navy;
     padding: 30px 0;
     clear: both;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid white;
     color: #ccc;
     font-size: 12px;
     text-align: center;
@@ -180,8 +187,8 @@ footer {
 
 .work h3 {
     border-bottom: 0;
-    background: #4aaaa5;
-    color: #fff;
+    background: navy;
+    color: white;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -226,12 +233,18 @@ textarea {
 }
 
 input[type=submit] {
-    background: #4aaaa5;
+    background: white;
     border: 0 none;
-    color: #fff;
+    color: navy;
     font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;
 
 } 
 
+#Github {
+    position: relative;
+    float: left;
+    left: 80px;
+    bottom: 74px;
+}
